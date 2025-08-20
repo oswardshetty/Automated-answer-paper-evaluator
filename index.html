@@ -1,22 +1,18 @@
-~<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>My Portfolio</title>
+    <title>Manvi's Portfolio</title>
 
     <!-- meta tags for SEO and social sharing -->
-    <link
-      rel="canonical"
-      href="https://github.com/MonicaFidalgo/my-first-portfolio-final"
-    />
-    <meta name="description" content="My Cool Portfolio" />
+    <link rel="canonical" href="https://github.com/yourusername/portfolio" />
+    <meta name="description" content="Portfolio of Manvi M Shetty - Web Developer" />
     <meta name="robots" content="index,follow" />
-    <meta property="og:title" content="AtomicFox Portfolio" />
-    <meta property="og:type" content="article" />
-    <!-- <meta property="og:url" content="your url here" /> -->
-    <meta property="og:description" content="My Cool Portfolio" />
+    <meta property="og:title" content="Manvi's Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Portfolio of Manvi M Shetty - Web Developer" />
 
     <!-- import bootstrap library-->
     <link
@@ -32,225 +28,224 @@
       rel="stylesheet"
     />
 
-    <!-- import the webpage's stylesheet -->
+    <!-- import stylesheet -->
     <link rel="stylesheet" href="style.css" />
 
-    <!-- import the webpage's javascript file -->
+    <!-- import javascript -->
     <script src="script.js" defer></script>
   </head>
 
   <body>
-    <div class="header-content">
+    <!-- Header -->
+    <header class="header-content d-flex justify-content-between align-items-center p-3">
       <div class="header-logo">
-        <!-- <img src="assets/logo.png" alt="Logo Image" /> -->
         <h3>Manvi</h3>
       </div>
-      <div class="d-flex align-items-center">
-        <nav class="header-navigation">
-          <ul class="header-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-          </ul>
-        </nav>
+      <nav class="header-navigation">
+        <ul class="header-links list-inline mb-0">
+          <li class="list-inline-item"><a href="#about">About</a></li>
+          <li class="list-inline-item"><a href="#projects">Projects</a></li>
+          <li class="list-inline-item"><a href="#skills">Skills</a></li>
+          <li class="list-inline-item"><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro text-center py-5">
+      <div class="container">
+        <h1 class="title">Hello, my name is Manvi J</h1>
+        <p class="lead">
+          I'm a <strong>Web Developer</strong> with a passion for creating
+          dynamic and user-friendly websites. My expertise lies in
+          <strong>front-end development</strong>.
+        </p>
+        <a
+          href="https://drive.google.com/your-resume-link"
+          target="_blank"
+          class="btn btn-primary m-2"
+          >Resume</a
+        >
+        <a
+          href="https://www.linkedin.com/in/manvi-m-shetty-212506316"
+          target="_blank"
+          class="btn btn-outline-primary m-2"
+          >LinkedIn</a
+        >
       </div>
-    </div>
-    <!-- the wrapper and content divs set margins and positioning -->
-    <div class="wrapper">
-      <div class="container" role="main">
-        <!-- this is the start of content for our page -->
-        <section class="row intro">
-          <div class="col-xs-12 col-sm-12 col-md-6" id="move">
-            <br>
-            <br>
-            <h1 class="title">Hello, my name is Manvi J</h1>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about py-5 bg-light">
+      <div class="container">
+        <h2 class="heading text-center mb-4">About Me</h2>
+        <div class="row align-items-center">
+          <div class="col-lg-6">
             <p>
-             
-              <span> I'm a Web developer </span>
-              
-I am a web developer with a passion for creating dynamic and user-friendly websites. My expertise lies in front-end development.
+              Hello there! I'm Manvi, a dedicated web developer with a passion
+              for crafting seamless and visually stunning online experiences.
+              With a strong foundation in front-end technologies like
+              <strong>HTML, CSS, and JavaScript</strong>, I specialize in
+              bringing designs to life and ensuring a user-friendly interface.
             </p>
-            <a href="www.linkedin.com/in/manvi-m-shetty-212506316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="button button-primary"> Resume </a>
-            <a href="www.linkedin.com/in/manvi-m-shetty-212506316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="button button-primary"> LinkedIn </a>
-            <br>
-            <br>
           </div>
-        </section>
-        <!-- About -->
-        <section class="row about" id="about">
-          <div class="col-12">
-            <h2 class="heading">About me</h2>
+          <div class="col-lg-6 text-center">
+            <img
+              src="assets/projects/chan2.jpg"
+              alt="Manvi's profile picture"
+              class="img-fluid rounded shadow"
+            />
           </div>
-          
-          
-          <div class="col-sm-12 col-lg-6 d-flex align-items-center flex-column">
-            <p class="about-text"><br>
-          <br>
-          <br>
-          <br>
-          Hello there! I'm Manvi, a dedicated web developer with a passion for crafting seamless and visually stunning online experiences. With a strong foundation in front-end technologies like HTML, CSS, and JavaScript, I specialize in bringing designs to life and ensuring a user-friendly interface.
-            </p>
-            <div class="text-center" ></div>
-            <br />
-          </div>
-
-<div class="col-sm-12 col-lg-6">
-            <div class="about-img">
-              <img src="assets/projects/chan2.jpg" alt="" />
-            </div>
-          </div>
-
-        </section>
-
-        
-
-        <!-- Projects -->
-        <section class="projects" id="projects">
-          <div class="row">
-            <div class="col-12">
-              <h2 class="heading">Projects</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-              <div class="project-card">
-                <div class="project-card-image">
-                  <img src="assets/projects/portfolio.png" />
-                </div>
-                <div class="project-card-content">
-                  <h3 class="project-card-title">Personal Portfolio</h3>
-                  <p class="project-card-text">The Personal Portfolio Website project is a dynamic and visually appealing online platform designed to showcase an individual's skills, experiences, and accomplishments. 
-                    
-                  </p>
-                  <a class="button button-secondary-rounded"> View Project </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-              <div class="project-card">
-                <div class="project-card-image">
-                  <img src="assets/projects/blog.jpg" />
-                </div>
-                <div class="project-card-content">
-                  <h3 class="project-card-title">Blog Website</h3>
-                  <p class="project-card-text">
-                    The Blog website project is a web-based application designed to help individuals assess blogs, a widely used blog type website to write blogs ans handle them.
-                  </p>
-                  <a class="button button-secondary-rounded"> View Project </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-              <div class="project-card">
-                <div class="project-card-image">
-                  <img src="assets/projects/todo.jpg" />
-                </div>
-                <div class="project-card-content">
-                  <h3 class="project-card-title">To Do List</h3>
-                  <p class="project-card-text">
-                    A simple to do list that allows you to handle your daily to do list.
-                    The objective of buliding this project was for me to do a deeper dive at improving my developing skills.
-                  </p>
-                  <a class="button button-secondary-rounded"> View Project </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-<!-- Skills -->
-<section class="skills" id="skills">
-  <div class="row">
-    <div class="col-12">
-      <h2 class="heading">Skills</h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-12 col-md-6">
-      <h3 class="skill-category"> Web Technologies</h3>
-      <ul class="skill-list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>jQuery</li>
-        <li>Bootstrap</li>
-        <!-- Add more programming languages as needed -->
-      </ul>
-    </div>
-    <div class="col-sm-12 col-md-6">
-      <h3 class="skill-category">Programming Languages</h3>
-      <ul class="skill-list">
-        <li>C</li>
-        <li>C++</li>
-        <li>Java</li>
-        <li>javaScript</li>
-        <!-- Add more web technologies as needed -->
-      </ul>
-    </div>
-  </div>
-</section>
-
-
-        <section class="contacts" id="contacts">
-          <div class="row">
-            <div class="col-12">
-              <h2 class="heading">Contacts</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-8 offset-md-2">
-              <!-- <p>
-                💌 Feel free to get in touch with me by
-                <a href="mailto:vossoemailaqui">Email</a> 💌
-              </p> -->
-              <form action="mailto:vossoemailaqui" method="post">
-                <div class="form-group">
-                  <label for="inputName">Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputName"
-                    placeholder="Enter your name"
-                    name="name"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleInputEmail1"
-                    placeholder="Enter email"
-                    name="email"
-                  />
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Message</label>
-                  <textarea
-                    class="form-control"
-                    id="exampleFormControlTextarea1"
-                    rows="3"
-                    name="text"
-                  ></textarea>
-                </div>
-                <div class="text-right">
-                  <button type="submit" class="button button-primary">
-                    Submit
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </section>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <!-- footer -->
-    <footer class="footer">
-      <div class="text-center">
-        <a href="www.linkedin.com/in/manvi-m-shetty-212506316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social github"></a>
+    <!-- Projects -->
+    <section id="projects" class="projects py-5">
+      <div class="container">
+        <h2 class="heading text-center mb-5">Projects</h2>
+        <div class="row">
+          <!-- Project 1 -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card shadow h-100">
+              <img
+                src="assets/projects/portfolio.png"
+                class="card-img-top"
+                alt="Personal Portfolio Project"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Personal Portfolio</h5>
+                <p class="card-text">
+                  A dynamic and visually appealing online portfolio designed to
+                  showcase skills, experiences, and accomplishments.
+                </p>
+                <a href="#" class="btn btn-sm btn-outline-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card shadow h-100">
+              <img
+                src="assets/projects/blog.jpg"
+                class="card-img-top"
+                alt="Blog Website Project"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Blog Website</h5>
+                <p class="card-text">
+                  A web-based application for creating and managing blogs, with
+                  features for posting and handling content.
+                </p>
+                <a href="#" class="btn btn-sm btn-outline-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card shadow h-100">
+              <img
+                src="assets/projects/todo.jpg"
+                class="card-img-top"
+                alt="To Do List Project"
+              />
+              <div class="card-body">
+                <h5 class="card-title">To Do List</h5>
+                <p class="card-text">
+                  A simple app for managing daily tasks, built to strengthen my
+                  development skills and UI/UX practices.
+                </p>
+                <a href="#" class="btn btn-sm btn-outline-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills py-5 bg-light">
+      <div class="container">
+        <h2 class="heading text-center mb-4">Skills</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Web Technologies</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>jQuery</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Programming Languages</h4>
+            <ul>
+              <li>C</li>
+              <li>C++</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts -->
+    <section id="contacts" class="contacts py-5">
+      <div class="container">
+        <h2 class="heading text-center mb-4">Contact Me</h2>
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <form action="mailto:yourname@gmail.com" method="post">
+              <div class="form-group">
+                <label for="inputName">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputName"
+                  placeholder="Enter your name"
+                  name="name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  placeholder="Enter email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  name="text"
+                ></textarea>
+              </div>
+              <div class="text-right">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center py-3">
+      <p>
+        © 2025 Manvi | 
+        <a
+          href="https://www.linkedin.com/in/manvi-m-shetty-212506316"
+          target="_blank"
+          class="text-white"
+          >LinkedIn</a
+        >
+      </p>
     </footer>
   </body>
 </html>
-
