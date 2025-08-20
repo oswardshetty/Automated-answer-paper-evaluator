@@ -43,9 +43,5 @@ The Automated Answer Paper Evaluator leveragesmachine learning techniques to pro
 
 
 
-## Authors
 
- 
-- [@Chandan J](https://github.com/chan177)
-- [@Ashwin D](https://github.com/Ashwin-codess)
-- [@Adithya B](https://github.com/adithya603)
+
